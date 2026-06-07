@@ -1,0 +1,7 @@
+Rozdział 21
+
+Zadanie 1 — Teoria 
+
+Import './style.css' to klasyczny import globalnego CSS powoduje że style łądują się do tagu head i działają na całą aplikacje.
+Import styles from './style.module.css' to import z wykorzystaniem css modules i działa do konkretnego komponentu.
+Musimy zapisywać to w zmiennej aby zapobiegać wykrzaczeniu z powodu bundlera vite. Zapisując obiekt w zmiennej możemy się później odwołać w kodzie do właściwej wygenerowanej klasy.
